@@ -32,7 +32,7 @@ class ImageCrypt {
         $binConv = new BinaryConverter();
         $binaryString = $binConv->convert($string);
         $binaryLength = strlen($binaryString) - 1;
-        
+
         $position = 0;
         for ($i = 0 ; $i < $this->image->getWidth(); $i++) {
             for ($j = 0 ; $j < $this->image->getHeight(); $j++) {
