@@ -1,0 +1,21 @@
+{
+    "name": "rav/image-crypt",
+    "description": "Image-crypt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafał Janisz",
+            "email": "rav.janisz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rav\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-gd": "*",
+        "phpunit/phpunit": "^8.3"
+    }
+}
