@@ -24,7 +24,7 @@ class ImageCrypt {
         $this->availableLength = (int) $maxCharacterLength;
     }
 
-    public function crypt($string) {
+    public function crypt($string, $name) {
         if (mb_strlen($string) > $this->availableLength) {
             throw new ImageCryptException('Invalid message length - max' . $this->availableLength . '.');
         }
@@ -32,7 +32,7 @@ class ImageCrypt {
         $binConv = new BinaryConverter();
         $binaryString = $binConv->convert($string);
         $binaryLength = strlen($binaryString) - 1;
-
+        
         $position = 0;
         for ($i = 0 ; $i < $this->image->getWidth(); $i++) {
             for ($j = 0 ; $j < $this->image->getHeight(); $j++) {
@@ -53,7 +53,7 @@ class ImageCrypt {
             }
         }
 
-        $this->image->save();
+        $this->image->save($name);
     }
 
     public function decrypt() {

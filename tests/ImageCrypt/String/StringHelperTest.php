@@ -5,13 +5,13 @@ use Rav\ImageCrypt\String\StringHelper;
 
 class StringHelperTest extends TestCase {
 
-    public function testCharTobin() {
+    public function testCharToBin() {
         $bin = StringHelper::charToBin('a');
         $this->assertEquals(strlen($bin), StringHelper::CHAR_BIN_LENGTH);
         $this->assertEquals('00000000000000000000000001100001', $bin);
     }
 
-    public function testbinToChar() {
+    public function testBinToChar() {
         $char = StringHelper::binToChar('00000000000000000000000001100001');
         $this->assertEquals(strlen($char), 1);
         $this->assertEquals('a', $char);
