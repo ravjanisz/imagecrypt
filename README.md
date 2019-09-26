@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/ravjanisz/imagecrypt.svg?branch=master)](https://travis-ci.org/ravjanisz/imagecrypt)
 [![codecov](https://codecov.io/gh/ravjanisz/imagecrypt/branch/master/graph/badge.svg)](https://codecov.io/gh/ravjanisz/imagecrypt)
 
-Steganography is the art of hiding information in plain image. In this project you can hide / fetch plain text from image in bmp or png format.
+Steganography is the art of hiding information in plain image. This project is PHP implementation of this idea and you can hide / fetch plain text from image in bmp or png format.
 
 ## Requirements
 
