@@ -20,7 +20,23 @@ $ composer require ravjanisz/imagecrypt
 ```
 ## Usage
 
-Usage
+```PHP
+// add instance
+use Rav\ImageCrypt\ImageCrypt;
+
+// pass directory and filename
+$crypt = new ImageCrypt(__DIR__ . '/files', 'glass.png');
+//prepare string to crypt in image
+$string = 'ImageCrypt';
+//crypt string and save to new file
+$crypt->crypt($string, 'glassSaved.png');
+
+//decrypt from file
+$decrypt = new ImageCrypt(__DIR__ . '/files', 'glassSaved.png');
+//get decrypted message or get exception
+$string = $decrypt->decrypt();
+echo $string;
+```
 
 ## Documentation
 
