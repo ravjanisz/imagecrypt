@@ -122,8 +122,6 @@ class ImageTest extends TestCase {
 
 
     protected function create() {
-        var_dump(dirname(__FILE__));
-
         if (file_exists(dirname(__FILE__) . '/test.png')) {
             try {
                 unlink(dirname(__FILE__) . '/test.png');
@@ -145,8 +143,6 @@ class ImageTest extends TestCase {
     }
 
     protected function createTrueColor() {
-        var_dump(dirname(__FILE__));
-
         if (file_exists(dirname(__FILE__) . '/testTrueColor.png')) {
             try {
                 unlink(dirname(__FILE__) . '/testTrueColor.png');
@@ -168,8 +164,6 @@ class ImageTest extends TestCase {
     }
 
     protected function createPng() {
-        var_dump(dirname(__FILE__));
-
         if (file_exists(dirname(__FILE__) . '/testPng.png')) {
             try {
                 unlink(dirname(__FILE__) . '/testPng.png');
