@@ -42,6 +42,12 @@ echo $string;
 
 None
 
+## Support the development
+
+**Do you like this project? Support it by donating**
+
+<a href="https://www.buymeacoffee.com/ravjanisz"><img src="docs/assets/images/bmc.png" width="180" alt="Buy me a coffee"></img></a>
+
 ## License
 
 imagecrypt is licensed under the MIT License - see the LICENSE file for details
