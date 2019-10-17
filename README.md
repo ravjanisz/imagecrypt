@@ -46,7 +46,9 @@ None
 
 **Do you like this project? Support it by donating**
 
-<a href="https://www.buymeacoffee.com/ravjanisz"><img src="docs/assets/images/bmc.png" width="180" alt="Buy me a coffee"></img></a>
+<a href="https://www.buymeacoffee.com/ravjanisz">
+![alt Buy me a coffee](https://raw.githubusercontent.com/ravjanisz/imagecrypt/master/docs/assets/bmc.png)
+</a>
 
 ## License
 
