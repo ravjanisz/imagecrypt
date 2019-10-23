@@ -7,7 +7,7 @@ Steganography is the art of hiding information in plain image. This project is P
 
 ## Requirements
 
-* PHP >= 7.1
+* PHP >= 7.2
 * A GD extension
 * (optional) PHPUnit to run tests.
 
